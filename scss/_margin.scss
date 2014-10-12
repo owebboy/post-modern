@@ -1,0 +1,133 @@
+/* margin  ======================== */
+
+$margin: 6;
+
+/* 0 margin */
+.m-0 {
+  margin: 0 !important;
+}
+
+/* margin */
+@for $i from 1 through $margin {
+  .m-#{$i} {
+    margin: 1em * $i !important;
+  }
+}
+
+/* left margin */
+@for $i from 1 through $margin {
+  .ml-#{$i} {
+    margin-left: 1em * $i !important;
+  }
+}
+
+/* right margin */
+@for $i from 1 through $margin {
+  .mr-#{$i} {
+    margin-right: 1em * $i !important;
+  }
+}
+
+/* top margin */
+@for $i from 1 through $margin {
+  .mt-#{$i} {
+    margin-top: 1em * $i !important;
+  }
+}
+
+/* bottom margin */
+@for $i from 1 through $margin {
+  .mb-#{$i} {
+    margin-bottom: 1em * $i !important;
+  }
+}
+
+/* right & left margin */
+@for $i from 1 through $margin {
+  .mrl-#{$i} {
+    margin-right: 1em * $i !important;
+    margin-left: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $margin {
+  .mlr-#{$i} {
+    margin-left: 1em * $i !important;
+    margin-right: 1em * $i !important;
+  }
+}
+
+/* top and bottom margin */
+@for $i from 1 through $margin {
+  .mtb-#{$i} {
+    margin-top: 1em * $i !important;
+    margin-bottom: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $margin {
+  .mbt-#{$i} {
+    margin-bottom: 1em * $i !important;
+    margin-top: 1em * $i !important;
+  }
+}
+
+/* left and bottom margin */
+@for $i from 1 through $margin {
+  .mlb-#{$i} {
+    margin-left: 1em * $i !important;
+    margin-bottom: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $margin {
+  .mbl-#{$i} {
+    margin-bottom: 1em * $i !important;
+    margin-left: 1em * $i !important;
+  }
+}
+
+/* top and left margin */
+@for $i from 1 through $margin {
+  .mtl-#{$i} {
+    margin-top: 1em * $i !important;
+    margin-left: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $margin {
+  .mlt-#{$i} {
+    margin-left: 1em * $i !important;
+    margin-top: 1em * $i !important;
+  }
+}
+
+/* top and right margin */
+@for $i from 1 through $margin {
+  .mtr-#{$i} {
+    margin-top: 1em * $i !important;
+    margin-right: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $margin {
+  .mrt-#{$i} {
+    margin-right: 1em * $i !important;
+    margin-top: 1em * $i !important;
+  }
+}
+
+/* bottom and right margin */
+@for $i from 1 through $margin {
+  .mbr-#{$i} {
+    margin-bottom: 1em * $i !important;
+    margin-right: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $margin {
+  .mrb-#{$i} {
+    margin-right: 1em * $i !important;
+    margin-bottom: 1em * $i !important;
+  }
+}

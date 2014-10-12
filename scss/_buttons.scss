@@ -1,0 +1,268 @@
+/* buttons ======================== */
+
+.btn {
+  display: inline-block;
+  transition: .2s background;
+  font-weight: 500;
+  padding: .5em .6em;
+  border: {
+    style: solid;
+    width: 2px;
+  }
+}
+
+/* colors */
+
+  .btn-navy {
+    color: $navy;
+    border-color: $navy;
+    &:hover {
+      background: $navy;
+      color: $white;
+    }
+  }
+
+  .btn-blue {
+    color: $blue;
+    border-color: $blue;
+    &:hover {
+      background: $blue;
+      color: $white;
+    }
+  }
+
+  .btn-aqua {
+    color: $aqua;
+    border-color: $aqua;
+    &:hover {
+      background: $aqua;
+      color: $white;
+    }
+  }
+
+  .btn-teal {
+    color: $teal;
+    border-color: $teal;
+    &:hover {
+      background: $teal;
+      color: $white;
+    }
+  }
+
+  .btn-green {
+    color: $green;
+    border-color: $green;
+    &:hover {
+      background: $green;
+      color: $white;
+    }
+  }
+
+  .btn-lime {
+    color: $lime;
+    border-color: $lime;
+    &:hover {
+      background: $lime;
+      color: $white;
+    }
+  }
+
+  .btn-yellow {
+    color: $yellow;
+    border-color: $yellow;
+    &:hover {
+      background: $yellow;
+      color: $white;
+    }
+  }
+
+  .btn-orange {
+    color: $orange;
+    border-color: $orange;
+    &:hover {
+      background: $orange;
+      color: $white;
+    }
+  }
+
+  .btn-red {
+    color: $red;
+    border-color: $red;
+    &:hover {
+      background: $red;
+      color: $white;
+    }
+  }
+
+  .btn-pink {
+    color: $pink;
+    border-color: $pink;
+    &:hover {
+      background: $pink;
+      color: $white;
+    }
+  }
+
+  .btn-purple {
+    color: $purple;
+    border-color: $purple;
+    &:hover {
+      background: $purple;
+      color: $white;
+    }
+  }
+
+  .btn-white {
+    color: $white;
+    border-color: $white;
+    &:hover {
+      background: $white;
+      color: $black;
+    }
+  }
+
+  .btn-black {
+    color: $black;
+    border-color: $black;
+    &:hover {
+      background: $black;
+      color: $white;
+    }
+  }
+
+  /* inverted */
+
+  .btn-inverted-navy {
+    background: $navy;
+    border-color: $navy;
+    color: $white;
+    &:hover {
+      color: $navy;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-blue {
+    background: $blue;
+    border-color: $blue;
+    color: $white;
+    &:hover {
+      color: $blue;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-aqua {
+    background: $aqua;
+    border-color: $aqua;
+    color: $white;
+    &:hover {
+      color: $aqua;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-teal {
+    background: $teal;
+    border-color: $teal;
+    color: $white;
+    &:hover {
+      color: $teal;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-green {
+    background: $green;
+    border-color: $green;
+    color: $white;
+    &:hover {
+      color: $green;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-lime {
+    background: $lime;
+    border-color: $lime;
+    color: $white;
+    &:hover {
+      color: $lime;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-yellow {
+    background: $yellow;
+    border-color: $yellow;
+    color: $white;
+    &:hover {
+      color: $yellow;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-orange {
+    background: $orange;
+    border-color: $orange;
+    color: $white;
+    &:hover {
+      color: $orange;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-red {
+    background: $red;
+    border-color: $red;
+    color: $white;
+    &:hover {
+      color: $red;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-pink {
+    background: $pink;
+    border-color: $pink;
+    color: $white;
+    &:hover {
+      color: $pink;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-purple {
+    background: $purple;
+    border-color: $purple;
+    color: $white;
+    &:hover {
+      color: $purple;
+      background: $white;
+    }
+  }
+
+  .btn-inverted-black {
+    color: $white;
+    border-color: $black;
+    background: $black;
+    &:hover {
+      background: $white;
+      color: $black;
+    }
+  }
+
+
+
+/* sizes */
+.btn-small {
+  font-size: .8em;
+}
+
+.btn-medium {
+  font-size: 1.4em;
+}
+
+.btn-large {
+  font-size: 1.8em;
+}

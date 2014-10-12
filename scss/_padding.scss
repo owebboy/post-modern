@@ -1,0 +1,133 @@
+/* padding  ======================== */
+
+$padding: 6;
+
+/* 0 padding */
+.p-0 {
+  padding: 0 !important;
+}
+
+/* padding */
+@for $i from 1 through $padding {
+  .p-#{$i} {
+    padding: 1em * $i !important;
+  }
+}
+
+/* left padding */
+@for $i from 1 through $padding {
+  .pl-#{$i} {
+    padding-left: 1em * $i !important;
+  }
+}
+
+/* right padding */
+@for $i from 1 through $padding {
+  .pr-#{$i} {
+    padding-right: 1em * $i !important;
+  }
+}
+
+/* top padding */
+@for $i from 1 through $padding {
+  .pt-#{$i} {
+    padding-top: 1em * $i !important;
+  }
+}
+
+/* bottom padding */
+@for $i from 1 through $padding {
+  .pb-#{$i} {
+    padding-bottom: 1em * $i !important;
+  }
+}
+
+/* right & left padding */
+@for $i from 1 through $padding {
+  .prl-#{$i} {
+    padding-right: 1em * $i !important;
+    padding-left: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $padding {
+  .plr-#{$i} {
+    padding-left: 1em * $i !important;
+    padding-right: 1em * $i !important;
+  }
+}
+
+/* top and bottom padding */
+@for $i from 1 through $padding {
+  .ptb-#{$i} {
+    padding-top: 1em * $i !important;
+    padding-bottom: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $padding {
+  .pbt-#{$i} {
+    padding-bottom: 1em * $i !important;
+    padding-top: 1em * $i !important;
+  }
+}
+
+/* left and bottom padding */
+@for $i from 1 through $padding {
+  .plb-#{$i} {
+    padding-left: 1em * $i !important;
+    padding-bottom: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $padding {
+  .pbl-#{$i} {
+    padding-bottom: 1em * $i !important;
+    padding-left: 1em * $i !important;
+  }
+}
+
+/* top and left padding */
+@for $i from 1 through $padding {
+  .ptl-#{$i} {
+    padding-top: 1em * $i !important;
+    padding-left: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $padding {
+  .plt-#{$i} {
+    padding-left: 1em * $i !important;
+    padding-top: 1em * $i !important;
+  }
+}
+
+/* top and right padding */
+@for $i from 1 through $padding {
+  .ptr-#{$i} {
+    padding-top: 1em * $i !important;
+    padding-right: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $padding {
+  .prt-#{$i} {
+    padding-right: 1em * $i !important;
+    padding-top: 1em * $i !important;
+  }
+}
+
+/* bottom and right padding */
+@for $i from 1 through $padding {
+  .pbr-#{$i} {
+    padding-bottom: 1em * $i !important;
+    padding-right: 1em * $i !important;
+  }
+}
+
+@for $i from 1 through $padding {
+  .prb-#{$i} {
+    padding-right: 1em * $i !important;
+    padding-bottom: 1em * $i !important;
+  }
+}

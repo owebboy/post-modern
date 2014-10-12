@@ -1,0 +1,145 @@
+/* text ======================== */
+
+html {
+  color: $black;
+  font: {
+    family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+}
+
+/* align */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+/* heading */
+
+h1, .h1 {
+  font:{
+    weight: 500;
+    size: 2em;
+  }
+}
+
+h2, .h2 {
+  font: {
+    weight: 500;
+    size: 1.8em;
+  }
+}
+
+h3, .h3 {
+  font: {
+    weight: 500;
+    size: 1.5em;
+  }
+}
+
+h4, h4 {
+  font: {
+    weight: 500;
+    size: 1.2em;
+  }
+}
+
+h5, .h5 {
+  font: {
+    weight: 500;
+    size: 1.1em;
+  }
+}
+
+h6, .h6 {
+  font: {
+    weight: 500;
+    size: 1em;
+  }
+}
+
+/* title */
+
+.title {
+  font: {
+    family: georgia, serif;
+    weight: normal;
+    size: 2.5em;
+  }
+  text: {
+    transform: uppercase;
+  }
+}
+
+/* lead */
+
+.lead {
+  font: {
+    weight: 300;
+    size: 1.5em;
+  }
+}
+
+/* lowercase */
+
+.lcase {
+  text-transform: lowercase;
+}
+
+/* uppercase */
+
+.ucase {
+  text-transform: uppercase;
+}
+
+/* capitalize */
+
+.cap {
+  text-transform: capitalize;
+}
+
+/* serif */
+
+.serif {
+  font: {
+    family: georgia, serif;
+    weight: normal;
+    size: 1.5em;
+  }
+}
+
+/* link */
+
+a {
+  color: $blue;
+  transition: .4s all;
+  text: {
+    decoration: none;
+  }
+  &:hover {
+    color: $green;
+  }
+}
+
+/* code */
+
+.code, code, pre {
+  color: $aqua;
+  font: {
+    family: menlo, monospace;
+    style: italic;
+  }
+}
+
+/* double spaced */
+
+.double {
+  line-height: 2em;
+}
