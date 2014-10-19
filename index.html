@@ -2,146 +2,43 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="authtor" content="oliver pope">
+  <meta name="author" content="@owebboy">
   <meta name="description" content="A stylesheet focusing on practical website design">
+  <meta name="viewport" content="width=device-width">
   <title>post-modern</title>
-  <link rel="stylesheet" href="css/pm.css">
+  <link rel="stylesheet" href="css/pm.min.css">
 </head>
 
 <body>
-  <header class="bg-orange txt-white ptb-6">
-    <a href="//github.com/owebboy/post-modern"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-    <div class="wrapper">
-      <h1 class="title">post-modern</h1>
-      <p class="lead">A stylesheet focusing on practical website design</p>
-
-      <nav class="mt-3">
-        <a href="docs.html" class="btn btn-white btn-medium">Documentation</a>
-        <a href="//github.com/owebboy/post-modern" class="btn btn-white btn-medium">Github</a>
-      </nav>
-    </div>
+  <header class="plr-1 pt-2 pb-1">
+    <h1 class="title">Post-Modern</h1>
   </header>
-  <main class="wrapper">
-    <section id="do-awesome-things">
-      <h2 class="mt-1">Do Awesome Things</h2>
-      <p class="mb-3">With post-modern, you can do a ton of cool things and it all looks really rad. Here are three things you can do with post-modern.</p>
-
-      <section id="coustmize" class="wrapper">
-        <div class="column-4">
-          <h3>customize your site with css classes</h3>
-          <p class="mt-1">We have css classes for all the things you would ever need to build a website. You can style anything you'd like completely different than someone else using post-modern. Thats a very exciting part about this stylesheet.</p>
-        </div>
-
-        <h3>classes of post-modern</h3>
-        <div class="column-4">
-          <section class="mt-1 column-6">
-            <dl>
-              <dt><p class="ucase">Uppercase Text</p></dt>
-                <dd><code>.ucase</code></dd>
-              <dt><p class="lcase">Lowercase Text</p></dt>
-                <dd><code>.lcase</code></dd>
-              <dt><p class="cap">capitalize</p></dt>
-                <dd><code>.cap</code></dd>
-              <dt><p class="lead">lead</p></dt>
-                <dd><code>.lead</code></dd>
-              <dt><p class="serif">serif lead</p></dt>
-                <dd><code>.serif</code></dd>
-            </dl>
-          </section>
-          <section class="mt-1 column-6">
-            <dl>
-              <dt><p class="title">title</p></dt>
-                <dd><code>.title</code></dd>
-              <dt><p class="code">code</p></dt>
-                <dd><code>.code</code></dd>
-              <dt><p class="left">left</p></dt>
-                <dd><code>.left</code></dd>
-              <dt><p class="center">center</p></dt>
-                <dd><code>.center</code></dd>
-              <dt><p class="right">right</p></dt>
-                <dd><code>right</code></dd>
-            </dl>
-          </section>
-        </div>
+  
+  <main class="plr-1">
+    <h2>Getting Started</h2>
+    
+    <div class="wrapper">
+      <section class="column-4 mt-1" id="step-1">
+        <p class="lead">Step 1</p>
+        <p class="pt-1">Clone repository</p>
+        <p class="pt-1"><code>$ git clone https://github.com/owebboy/post-modern.git</code></p>
       </section>
+      
+      <section class="column-4 mt-1" id="step-2">
+        <p class="lead">Step 2</p>
+        <p class="pt-1">a. Install Dev Dependencies</p>
+        <p class="pt-1"><code>$ npm install</code></p>
 
-      <section class="wrapper">
-        <div class="column-4">
-          <h3 class="mt-1">a compilations of colors</h3>
-          <p class="mt-1">Colors are a very important part of the web. It gives users a sense of authorness. It also can either add to the design, or take away from it.</p>
-        </div>
-
-        <h3 class="mt-1">colors</h3>
-        <div class="column-4">
-          <div class="row pt-1">
-            <div class="column-1 bg-navy p-1 mrb-1"></div>
-            <div class="column-1 bg-blue p-1 mrb-1"></div>
-            <div class="column-1 bg-aqua p-1 mrb-1"></div>
-            <div class="column-1 bg-teal p-1 mrb-1"></div>
-            <div class="column-1 bg-green p-1 mrb-1"></div>
-            <div class="column-1 bg-lime p-1 mrb-1"></div>
-            <div class="column-1 bg-yellow p-1 mrb-1"></div>
-          </div>
-          <div class="row">
-            <div class="column-1 bg-orange p-1 mrb-1"></div>
-            <div class="column-1 bg-red p-1 mrb-1"></div>
-            <div class="column-1 bg-pink p-1 mrb-1"></div>
-            <div class="column-1 bg-purple p-1 mrb-1"></div>
-            <div class="column-1 bg-silver p-1 mrb-1"></div>
-            <div class="column-1 bg-gray p-1 mrb-1"></div>
-            <div class="column-1 bg-black p-1 mrb-1"></div>
-          </div>
-        </div>
+        <p class="pt-1">b. Run Gulp</p>
+        <p class="pt-1"><code>$ gulp</code></p>
       </section>
-
-      <section class="wrapper">
-        <div class="column-4">
-          <h3 class="mt-1">we have a grid!</h3>
-          <p class="mt-1">A very simple grid, yes, but nevertheless a wonderful grid. By default, it comes with twelve columns. With simple <a href="//sass-lang.org">SASS</a> variables you can change the number of columns, and how big it is.</p>
-        </div>
-
-        <div class="column-4">
-          <h3 class="mt-1">the grid</h3>
-          <div class="row mt-1">
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-            <div class="column-1 txt-white bg-black p-1">one</div>
-          </div>
-          <div class="row mt-1">
-            <div class="column-2 txt-black bg-aqua p-1">two</div>
-            <div class="column-2 txt-black bg-aqua p-1">two</div>
-            <div class="column-2 txt-black bg-aqua p-1">two</div>
-            <div class="column-2 txt-black bg-aqua p-1">two</div>
-            <div class="column-2 txt-black bg-aqua p-1">two</div>
-            <div class="column-2 txt-black bg-aqua p-1">two</div>
-          </div>
-          <div class="row mt-1">
-            <div class="column-3 txt-black bg-green p-1">three</div>
-            <div class="column-3 txt-black bg-green p-1">three</div>
-            <div class="column-3 txt-black bg-green p-1">three</div>
-            <div class="column-3 txt-black bg-green p-1">three</div>
-          </div>
-          <div class="row mt-1">
-            <div class="column-4 txt-white bg-purple p-1">four</div>
-            <div class="column-4 txt-white bg-purple p-1">four</div>
-            <div class="column-4 txt-white bg-purple p-1">four</div>
-          </div>
-        </div>
+      
+      <section class="column-4 mt-1" id="step-3">
+        <p class="lead">Step 3</p>
+        <p class="pt-1">Build Your Site! Just add post-modern and code away :)</p>
+        <p class="pt-1"><code>&lt;link rel="stylesheet" href="css/pm.min.css"&gt;</code></p>
       </section>
-    </section>
+    </div>
   </main>
-  <footer class="wrapper mtb-3">
-    <p class="serif">post-modern</p>
-    <p>copyright 2014, v1.0.0</p>
-  </footer>
 </body>
 </html>
