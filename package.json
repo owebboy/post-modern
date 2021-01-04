@@ -15,15 +15,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-		"browser-sync": "~1.1.2",
-		"gulp": "~3.8.0",
-		"gulp-autoprefixer": "~0.0.7",
-		"gulp-cssmin": "~0.1.5",
-		"gulp-imagemin": "^0.6.1",
-		"gulp-rename": "~1.2.0",
-		"gulp-sass": "~0.7.2",
-		"gulp-watch": "~0.6.6",
-		"imagemin-pngcrush": "^0.1.0",
-		"imagemin-jpegtran": "^0.1.0"
-	}
+    "browser-sync": "~2.26.13",
+    "gulp": "~4.0.2",
+    "gulp-autoprefixer": "~7.0.1",
+    "gulp-cssmin": "~0.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "~2.0.0",
+    "gulp-sass": "~4.1.0",
+    "gulp-watch": "~5.0.1",
+    "imagemin-pngcrush": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0"
+  }
 }
